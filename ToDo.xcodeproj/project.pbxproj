@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B72B9072CB70B6400C71873 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72B9062CB70B6400C71873 /* Structs.swift */; };
+		8B72B9092CB70BCE00C71873 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72B9082CB70BCE00C71873 /* Functions.swift */; };
+		8B72B90B2CB70C1500C71873 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72B90A2CB70C1500C71873 /* Helpers.swift */; };
+		8B72B9112CBADA0600C71873 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72B9102CBADA0600C71873 /* SettingsView.swift */; };
+		8B72B9132CBAFA3000C71873 /* AddToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72B9122CBAFA3000C71873 /* AddToList.swift */; };
+		8B80406E2CAB004B007ABF1A /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 8B80406D2CAB004B007ABF1A /* Introspect */; };
+		8B8040702CADD191007ABF1A /* CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80406F2CADD191007ABF1A /* CreateList.swift */; };
+		8B8040722CADD1C3007ABF1A /* CreateTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8040712CADD1C3007ABF1A /* CreateTodo.swift */; };
+		8BC0F3FC2CB066F600B1DF25 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F3FB2CB066F600B1DF25 /* AddNote.swift */; };
+		8BC0F3FF2CB0C61700B1DF25 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F3FE2CB0C61700B1DF25 /* ListView.swift */; };
+		8BC0F4022CB3226B00B1DF25 /* EditSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F4012CB3226B00B1DF25 /* EditSections.swift */; };
+		8BC0F4042CB322F600B1DF25 /* CreateSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F4032CB322F600B1DF25 /* CreateSection.swift */; };
+		8BC0F4062CB324C000B1DF25 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0F4052CB324C000B1DF25 /* Global.swift */; };
 		8BCE03622C5E9E1300527F7D /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03612C5E9E1300527F7D /* ToDoApp.swift */; };
 		8BCE03642C5E9E1300527F7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03632C5E9E1300527F7D /* ContentView.swift */; };
-		8BCE03662C5E9E1300527F7D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03652C5E9E1300527F7D /* Item.swift */; };
+		8BCE03662C5E9E1300527F7D /* Model 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03652C5E9E1300527F7D /* Model 2.swift */; };
 		8BCE03682C5E9E1500527F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE03672C5E9E1500527F7D /* Assets.xcassets */; };
-		8BCE036B2C5E9E1500527F7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE036A2C5E9E1500527F7D /* Preview Assets.xcassets */; };
 		8BCE03752C5E9E1500527F7D /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03742C5E9E1500527F7D /* ToDoTests.swift */; };
 		8BCE037F2C5E9E1500527F7D /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE037E2C5E9E1500527F7D /* ToDoUITests.swift */; };
 		8BCE03812C5E9E1500527F7D /* ToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE03802C5E9E1500527F7D /* ToDoUITestsLaunchTests.swift */; };
@@ -35,12 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B72B9062CB70B6400C71873 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		8B72B9082CB70BCE00C71873 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		8B72B90A2CB70C1500C71873 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8B72B9102CBADA0600C71873 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8B72B9122CBAFA3000C71873 /* AddToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToList.swift; sourceTree = "<group>"; };
+		8B80406F2CADD191007ABF1A /* CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateList.swift; sourceTree = "<group>"; };
+		8B8040712CADD1C3007ABF1A /* CreateTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodo.swift; sourceTree = "<group>"; };
+		8BC0F3FB2CB066F600B1DF25 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		8BC0F3FE2CB0C61700B1DF25 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8BC0F4012CB3226B00B1DF25 /* EditSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSections.swift; sourceTree = "<group>"; };
+		8BC0F4032CB322F600B1DF25 /* CreateSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSection.swift; sourceTree = "<group>"; };
+		8BC0F4052CB324C000B1DF25 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		8BCE035E2C5E9E1300527F7D /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCE03612C5E9E1300527F7D /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		8BCE03632C5E9E1300527F7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8BCE03652C5E9E1300527F7D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8BCE03652C5E9E1300527F7D /* Model 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model 2.swift"; sourceTree = "<group>"; };
 		8BCE03672C5E9E1500527F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BCE036A2C5E9E1500527F7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BCE03702C5E9E1500527F7D /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCE03742C5E9E1500527F7D /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		8BCE037A2C5E9E1500527F7D /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B80406E2CAB004B007ABF1A /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +97,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BC0F3FD2CB0687400B1DF25 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE03632C5E9E1300527F7D /* ContentView.swift */,
+				8BC0F3FE2CB0C61700B1DF25 /* ListView.swift */,
+				8BC0F3FB2CB066F600B1DF25 /* AddNote.swift */,
+				8B72B9102CBADA0600C71873 /* SettingsView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		8BC0F4002CB3223B00B1DF25 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				8B8040712CADD1C3007ABF1A /* CreateTodo.swift */,
+				8BC0F4032CB322F600B1DF25 /* CreateSection.swift */,
+				8B80406F2CADD191007ABF1A /* CreateList.swift */,
+				8B72B9122CBAFA3000C71873 /* AddToList.swift */,
+				8BC0F4012CB3226B00B1DF25 /* EditSections.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
 		8BCE03552C5E9E1300527F7D = {
 			isa = PBXGroup;
 			children = (
@@ -97,20 +144,16 @@
 			isa = PBXGroup;
 			children = (
 				8BCE03612C5E9E1300527F7D /* ToDoApp.swift */,
-				8BCE03632C5E9E1300527F7D /* ContentView.swift */,
-				8BCE03652C5E9E1300527F7D /* Item.swift */,
+				8B72B9062CB70B6400C71873 /* Structs.swift */,
+				8BCE03652C5E9E1300527F7D /* Model 2.swift */,
+				8B72B9082CB70BCE00C71873 /* Functions.swift */,
+				8BC0F4052CB324C000B1DF25 /* Global.swift */,
+				8B72B90A2CB70C1500C71873 /* Helpers.swift */,
+				8BC0F3FD2CB0687400B1DF25 /* MainView */,
+				8BC0F4002CB3223B00B1DF25 /* Sheets */,
 				8BCE03672C5E9E1500527F7D /* Assets.xcassets */,
-				8BCE03692C5E9E1500527F7D /* Preview Content */,
 			);
 			path = ToDo;
-			sourceTree = "<group>";
-		};
-		8BCE03692C5E9E1500527F7D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8BCE036A2C5E9E1500527F7D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8BCE03732C5E9E1500527F7D /* ToDoTests */ = {
@@ -146,6 +189,9 @@
 			dependencies = (
 			);
 			name = ToDo;
+			packageProductDependencies = (
+				8B80406D2CAB004B007ABF1A /* Introspect */,
+			);
 			productName = ToDo;
 			productReference = 8BCE035E2C5E9E1300527F7D /* ToDo.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 8BCE03552C5E9E1300527F7D;
+			packageReferences = (
+				8B80406C2CAB004B007ABF1A /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+			);
 			productRefGroup = 8BCE035F2C5E9E1300527F7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCE036B2C5E9E1500527F7D /* Preview Assets.xcassets in Resources */,
 				8BCE03682C5E9E1500527F7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +308,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B72B9112CBADA0600C71873 /* SettingsView.swift in Sources */,
+				8B72B9072CB70B6400C71873 /* Structs.swift in Sources */,
+				8B72B9132CBAFA3000C71873 /* AddToList.swift in Sources */,
+				8B72B90B2CB70C1500C71873 /* Helpers.swift in Sources */,
+				8BC0F3FF2CB0C61700B1DF25 /* ListView.swift in Sources */,
 				8BCE03642C5E9E1300527F7D /* ContentView.swift in Sources */,
-				8BCE03662C5E9E1300527F7D /* Item.swift in Sources */,
+				8BC0F4022CB3226B00B1DF25 /* EditSections.swift in Sources */,
+				8B72B9092CB70BCE00C71873 /* Functions.swift in Sources */,
+				8BC0F4062CB324C000B1DF25 /* Global.swift in Sources */,
+				8B8040702CADD191007ABF1A /* CreateList.swift in Sources */,
+				8B8040722CADD1C3007ABF1A /* CreateTodo.swift in Sources */,
+				8BC0F3FC2CB066F600B1DF25 /* AddNote.swift in Sources */,
+				8BC0F4042CB322F600B1DF25 /* CreateSection.swift in Sources */,
+				8BCE03662C5E9E1300527F7D /* Model 2.swift in Sources */,
 				8BCE03622C5E9E1300527F7D /* ToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +492,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,8 +521,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B80406C2CAB004B007ABF1A /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = exactVersion;
+				version = 0.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B80406D2CAB004B007ABF1A /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B80406C2CAB004B007ABF1A /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8BCE03562C5E9E1300527F7D /* Project object */;
 }
